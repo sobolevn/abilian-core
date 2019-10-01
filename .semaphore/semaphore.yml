@@ -24,6 +24,7 @@ blocks:
           commands:
             - sudo pip install -U tox pip setuptools
             - sudo apt install -y node-less
+            - checkout
             - pwd
             - ls
             - tox
