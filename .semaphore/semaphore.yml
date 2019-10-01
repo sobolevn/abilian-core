@@ -22,4 +22,6 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
+            - sudo pip install -U tox pip setuptools
+            - sudo apt install -y node-less
             - tox
